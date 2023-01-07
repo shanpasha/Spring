@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"name": "shan",
+		"salary": 25000.0,
+		"email": "shan@gmail.com"
+	},
+	{
+		"id": 2,
+		"name": "ramya",
+		"salary": 45000.0,
+		"email": "ramya@gmail.com"
+	},
+	{
+		"id": 3,
+		"name": "puja",
+		"salary": 95000.0,
+		"email": "puja@gmail.com"
+	},
+	{
+		"id": 4,
+		"name": "shannu",
+		"salary": 46000.0,
+		"email": "shann@gmail.com"
+	}
+]
