@@ -16,7 +16,7 @@ public class AssepectLogger {
 
 	@Before("execution(* com.Controller.EmpController.*(..))")
 	public void logBefore(JoinPoint point) {
-		log.info(point.getSignature().getName() + "START... ### ");
+		log.info(point.getSignature().getName() + "START... #### ");
 	}
 
 	@After("execution(* com.Controller.EmpController.*(..))")
