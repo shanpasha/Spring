@@ -14,11 +14,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import com.Service.EmployeeeService;
 import com.model.Employee;
 
-@Controller
+@RestController
 public class EmployeeRestController {
 
 	@Autowired
@@ -49,7 +50,7 @@ public class EmployeeRestController {
 	}
 
 	//@RequestMapping(value = "/deleteById/json/{id}", method = RequestMethod.DELETE, produces = "application/json", consumes = "application/json")
-	@DeleteMapping("/deleteById/json/{id}")
+	@DeleteMapping()
 	public @ResponseBody String DeleteByID(@PathVariable Integer id) {
 
 		service.delete(id);
